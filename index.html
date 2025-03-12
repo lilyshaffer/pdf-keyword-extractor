@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Keyword Extractor</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.12.313/pdf.min.js"></script>
+</head>
+<body>
+    <div id="keyword-container">
+        <h1>PDF Keyword Extractor</h1>
+        
+        <!-- PDF file upload -->
+        <input type="file" id="file-input" accept=".pdf" />
+        <button id="extract-button">Extract Keywords</button>
+        
+        <!-- Display extracted keywords -->
+        <h3>Extracted Keywords:</h3>
+        <div id="keywords-output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
